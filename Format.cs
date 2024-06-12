@@ -28,7 +28,7 @@ namespace FormatUsers
             while (flag)
             {
                 // Get User Information
-                Console.WriteLine("Please Enter User Number " + (counter + 1) + "'s Information");
+                Console.WriteLine("Please Enter User #" + (counter + 1) + "'s Information");
                 Console.WriteLine("First Name:");
                 string strFirstName = Console.ReadLine();
                 Console.WriteLine("Last Name:");
