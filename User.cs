@@ -72,7 +72,7 @@ namespace FormatUsers
             Console.WriteLine("Age: " + intAge + " Years Old");
             Console.WriteLine("Height: " + convertHeight(intHeight));
             Console.WriteLine("Weight: " + dblWeight + " Pounds");
-            Console.WriteLine("");
+            Console.WriteLine();
         }
     }
 }
