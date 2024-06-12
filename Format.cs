@@ -71,9 +71,7 @@ namespace FormatUsers
             // Print all Formatted User Information
             Console.WriteLine("User Information\n");
             for (int i = 0; i < arrUser.Count; i++)
-            {
                 arrUser[i].print();
-            }
 
             Console.WriteLine("\nPress any key to continue...");
             Console.ReadKey();
