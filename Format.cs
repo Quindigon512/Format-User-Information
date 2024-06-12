@@ -46,7 +46,7 @@ namespace FormatUsers
                 // Asks for More Users
                 Console.WriteLine("\nIs There Another User you Need to Enter? (Y/N)");
                 answer = Console.ReadLine();
-                Console.WriteLine("");
+                Console.WriteLine();
 
                 // Ensures Correct Input
                 while (answer != "Y" && answer != "y" && answer != "N" && answer != "n")
@@ -62,7 +62,7 @@ namespace FormatUsers
                 else if (answer == "N" || answer == "n")
                 {
                     flag = false;
-                    Console.WriteLine("");
+                    Console.WriteLine();
                 }
             }
 
